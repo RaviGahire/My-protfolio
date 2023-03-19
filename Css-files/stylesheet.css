@@ -45,6 +45,47 @@
     ul {
         list-style: none;
     }
+    /*social Icona*/
+    
+    .social-icon {
+        display: flex;
+        height: 40px;
+        width: 175px;
+        cursor: pointer;
+        position: fixed;
+        left: 900px;
+        top: 20px;
+        gap: 10px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social-icon i {
+        color: var(--skin-color);
+        font-size: 30px;
+    }
+    
+    .fa-github:hover {
+        color: #151515;
+    }
+    
+    .fa-linkedin:hover {
+        color: #0077b5;
+    }
+    
+    .fa-twitter:hover {
+        color: #55acee;
+    }
+    
+    .fa-pinterest:hover {
+        color: #bd081c;
+    }
+    
+    .fa-facebook:hover {
+        color: #3b5998;
+    }
+    /*social Icons end*/
     
     .section {
         background: var(--bg-black-900);

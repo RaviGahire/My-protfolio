@@ -1,7 +1,7 @@
 /* ======== typing animation         ============ */
 
 var typed = new Typed(".typing", {
-    strings: [" Ravi Gahire", "Ravi Gahire", "Web Developer", "What Can I Help You Sir..?"],
+    strings: [" Ravi Gahire", "Ravi Gahire", "Frontend-developer..!"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
@@ -40,7 +40,7 @@ function validateForm() {
 
     // Check if the message field is empty
     if (message == "") {
-        alert("Message field is required");
+        alert("Message field is required You can not send me blank text");
         return false;
     }
 
@@ -51,7 +51,7 @@ function validateForm() {
 
 /*------------Downolad cv button */
 function downloadFile() {
-    var fileUrl = 'C:\Users\ravig\OneDrive\Desktop\Myportfilio\img'; // replace with the URL of your file
+    var fileUrl = '\Myportfilio\Resume'; // replace with the URL of your file
     var fileName = 'myresume'; // replace with the default filename for the downloaded file
 
     var downloadButton = document.createElement('a');

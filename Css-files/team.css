@@ -14,6 +14,8 @@
                                     /*For Text*/
                                     --text-black-900: #000000;
                                     --text-black-700: #272626;
+                                    --text-black-500: #FFFFFF;
+                                    --text-black-300: #ffffff;
                                     /*Skin Colors*/
                                     --skin-color-100: #df0b98;
                                     --skin-color-200: #2b0bdf;
@@ -126,7 +128,11 @@
                                     color: #00acee;
                                 }
                                 
-                                @media (max-width:991px) {
+                                marquee {
+                                    color: var(--text-black-300);
+                                    font-family: 'Fredericka the Great', cursive;
+                                }
+                                /* @media (max-width:991px) {
                                     .main-container .cards .card {
                                         flex: 0 0 100%;
                                         max-width: 100%;
@@ -138,4 +144,4 @@
                                         flex: 0 0 100%;
                                         max-width: 100%;
                                     }
-                                }
+                                } */
